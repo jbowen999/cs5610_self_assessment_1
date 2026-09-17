@@ -1,6 +1,35 @@
 body {
   background-color: lightgray;
+  margin-left: 5%;
+  margin-right: 5%;
 }
+
+h1,
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  line-height: 150%;
+}
+.nav {
+  box-sizing: border-box;
+  width: auto;
+  padding: 1px;
+
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.link {
+  margin: auto auto 30px 30px;
+}
+
+#grid {
+  text-align: center;
+}
+
 .box {
   border: 5px solid gold;
   color: whitesmoke;

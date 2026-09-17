@@ -8,49 +8,64 @@
   </head>
   <body>
     <h1>Self Assemssment</h1>
-    <nav>
+    <nav class="nav">
       <ul>
-        <span><a href="a.html">a</a></span>
-        <span><a href="">link</a></span>
-        <span><a href="">link</a></span>
+        <span class="link"><a href="#useful-tags">Useful Tags</a></span>
+        <span class="link"><a href="#seo-tags">SEO Tags</a></span>
+        <span class="link"><a href="#grid">A grid</a></span>
+        <span class="link"><a href="#box-model">Box Model</a></span>
+        <span class="link"><a href="#sizes-guide">Size guide</a></span>
       </ul>
     </nav>
     <main>
-      <section class="useful-tags">
+      <section id="useful-tags">
         <h2>Useful Tags</h2>
         <ul>
-          <li>ul: Creates an unordered list. Like THIS ONE!</li>
-          <li>li: This is getting meta...I hate meta!</li>
+          <li><b>&lt;ul&gt;</b>: Creates an unordered list. Like THIS ONE!</li>
           <li>
-            main: Useful for screen readers to find the main content of your
-            page!
+            <b>&lt;li&gt;</b>: Lists need content, list items are list agnostic,
+            meaning they are used in ordered and unordered lists.
           </li>
           <li>
-            section: Same concept! Why not break up things into sections instead
-            of just using divs all the time! Oh no div is right under me is'nt
-            he?
+            <b>&lt;main&gt;</b>: Useful for screen readers to find the main
+            content of your page!
           </li>
           <li>
-            div: Just a container with no inherit attributes, exceedingly useful
-            when formatting pages. Beware: center a div at your own peril!
+            <b>&lt;section&gt;</b>: Same concept! Why not break up things into
+            sections instead of just using divs all the time! Oh no div is right
+            under me is'nt he?
           </li>
           <li>
-            h1-6: Creates headings of differing sizes. NOTE: each page should
-            only have one h1 tag!
+            <b>&lt;div&gt;</b>: Just a container with no inherit attributes,
+            exceedingly useful when formatting pages. Attempt to center a div at
+            your own peril!
           </li>
-          <li>p: Creates a paragraph. Useful if you like to talk alot.</li>
-          <li>em: adds some <em>emphasis</em> to what you write</li>
           <li>
-            b or strong: b for <b>BOLD</b>, strong for...
-            <strong>BOLD</strong> as well.
+            <b>&lt;h1&gt;-&lt;h6&gt;</b>: Creates headings of differing sizes.
+            NOTE: each page should only have one h1 tag!
           </li>
-          <li>blockquote:</li>
-          <blockquote>
-            "To quote or not to quote. That is the question!"
-          </blockquote>
+          <li>
+            <b>&lt;p&gt;</b>: Creates a paragraph. Useful if you like to talk
+            alot.
+          </li>
+          <li>
+            <b>&lt;em&gt;</b>: adds some <em>emphasis</em> to what you write
+          </li>
+          <li>
+            <b>&lt;b&gt;</b> or <b>&lt;strong&gt;</b>: b for <b>BOLD</b>, strong
+            for...
+            <strong>BOLD!</strong>
+          </li>
+          <li>
+            <b>&lt;blockquote&gt;</b>:
+            <blockquote>
+              "To quote or not to quote. That is the question!"
+            </blockquote>
+          </li>
         </ul>
       </section>
-      <section class="seo-tags">
+      <hr />
+      <section id="seo-tags">
         <h2>SEO Tags</h2>
         <ul>
           <li>title:</li>
@@ -59,7 +74,8 @@
           <li></li>
         </ul>
       </section>
-      <section class="grid">
+      <hr />
+      <section id="grid">
         <h2>3x3 Grid! (Now with 100% less CSS)</h2>
         <div>
           <span
@@ -109,8 +125,8 @@
           (inline) and div (block)
         </p>
       </section>
-
-      <section class="box-model">
+      <hr />
+      <section id="box-model">
         <h2>Box model gallery</h2>
         <div class="box">
           <h3>I use the standard model.</h3>
@@ -131,6 +147,22 @@
             <li>border x 2 = 10</li>
           </ul>
         </div>
+      </section>
+      <hr />
+      <section id="sizes-guide">
+        <h2>Sizes: Absolute vs relative</h2>
+        <ul class="sizes-list">
+          <li style="font-size: 0.5cm">Absolute (0.5cm)</li>
+          <li style="font-size: 5mm">Absolute (5mm)</li>
+          <li style="font-size: 20Q">Absolute (20Q)</li>
+          <li style="font-size: 0.2in">Absolute (0.2in)</li>
+          <li style="font-size: 1.1pc">Absolute (1.1pc)</li>
+          <li style="font-size: 12pt">Absolute (12pt)</li>
+          <li style="font-size: 16px">Absolute (16px)</li>
+          <li style="font-size: 1em">Relative (1em)</li>
+          <li style="font-size: 2vh">Relative (2vh)</li>
+          <li style="font-size: 2vw">Relative (2vw)</li>
+        </ul>
       </section>
     </main>
   </body>
